@@ -398,6 +398,7 @@ class HashMap:
 
 
 # ------------------- BASIC TESTING ---------------------------------------- #
+# I am NOT the author of this testing segment. It was written by Oregon State University professor(s) and intended to be shared with this code file for testing.
 
 if __name__ == "__main__":
 
