@@ -1,9 +1,7 @@
-# Course:      CS261 - Data Structures
-# Assignment:  6
+# Course: CS261 - Data Structures, Oregon State University
+# Author: CS261 professor(s)
+# I, Bralee, am NOT the original author of this file. It is meant to be included for the implementation of hash_map_oa.py and hash_map_sc.py.
 # Description: Provided data structures necessary to complete the assignment.
-#              Please look through this file carefully to see what methods
-#              are available and how they're implemented.
-#              Don't modify the contents of this file.
 
 
 # -------------- Used by both HashMaps (SC & OA)  -------------- #
