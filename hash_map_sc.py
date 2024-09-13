@@ -1,8 +1,7 @@
-# Name: Bralee Gilday
-# OSU Email: gildayb@oregonstate.edu
+# Author: Bralee Gilday
 # Course: CS261 - Data Structures
-# Assignment 6: HashMap Part 1 (chaining for collision resolution)
-# Due Date: 6/6/24
+# Assignment title: HashMap Part 1 (chaining for collision resolution)
+# Date last modified: 6/6/24
 # Description: Implementation of an optimized HashMap class that uses a dynamic array
 # to store the hash table and chaining for collision resolution with singly linked lists.
 # The HashMap class includes methods for inserting, resizing, retrieving, checking,
@@ -13,7 +12,7 @@
 # implementation can handle between 0 and 1,000,000 elements reliably.
 
 
-from a6_include import (DynamicArray, LinkedList,
+from DynamicArray_and_SinglyLinkedList import (DynamicArray, LinkedList,
                         hash_function_1, hash_function_2)
 
 
@@ -24,7 +23,7 @@ class HashMap:
         """
         Initialize new HashMap that uses
         separate chaining for collision resolution
-        DO NOT CHANGE THIS METHOD IN ANY WAY
+        DO NOT CHANGE THIS METHOD IN ANY WAY (pre-written by professor)
         """
         self._buckets = DynamicArray()
 
@@ -39,7 +38,7 @@ class HashMap:
     def __str__(self) -> str:
         """
         Override string method to provide more readable output
-        DO NOT CHANGE THIS METHOD IN ANY WAY
+        DO NOT CHANGE THIS METHOD IN ANY WAY (pre-written by professor)
         """
         out = ''
         for i in range(self._buckets.length()):
@@ -49,7 +48,7 @@ class HashMap:
     def _next_prime(self, capacity: int) -> int:
         """
         Increment from given number and the find the closest prime number
-        DO NOT CHANGE THIS METHOD IN ANY WAY
+        DO NOT CHANGE THIS METHOD IN ANY WAY (pre-written by professor)
         """
         if capacity % 2 == 0:
             capacity += 1
@@ -63,7 +62,7 @@ class HashMap:
     def _is_prime(capacity: int) -> bool:
         """
         Determine if given integer is a prime number and return boolean
-        DO NOT CHANGE THIS METHOD IN ANY WAY
+        DO NOT CHANGE THIS METHOD IN ANY WAY (pre-written by professor)
         """
         if capacity == 2 or capacity == 3:
             return True
@@ -82,14 +81,14 @@ class HashMap:
     def get_size(self) -> int:
         """
         Return size of map
-        DO NOT CHANGE THIS METHOD IN ANY WAY
+        DO NOT CHANGE THIS METHOD IN ANY WAY (pre-written by professor)
         """
         return self._size
 
     def get_capacity(self) -> int:
         """
         Return capacity of map
-        DO NOT CHANGE THIS METHOD IN ANY WAY
+        DO NOT CHANGE THIS METHOD IN ANY WAY (pre-written by professor)
         """
         return self._capacity
 
