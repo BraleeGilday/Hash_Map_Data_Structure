@@ -1,7 +1,7 @@
 # Author: Bralee Gilday
 # Course: CS261 - Data Structures
 # Assignment title: HashMap Part 2 (open addressing with quadratic probing)
-# Due last modified: 6/6/24
+# Date last modified: 6/6/24
 # Description: Implementation of an optimized HashMap class that uses a
 # dynamic array to store the hash table and Open Addressing with
 # Quadratic Probing for collision resolution inside that dynamic array.
